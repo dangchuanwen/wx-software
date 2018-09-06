@@ -1,0 +1,68 @@
+/* pages/page/page.wxss */
+
+.choose {
+  width: 96%;
+  margin: auto;
+  padding: 0 2% 0 2%;
+  height: 80rpx;
+  background-color: whitesmoke;
+}
+
+.choose text {
+  font-size: 32rpx;
+  color: gray;
+  line-height: 80rpx;
+}
+
+page {
+  width: 100%;
+}
+
+.province {
+  width: 100%;
+  margin: auto;
+  padding-bottom: 50rpx;
+  border-bottom: 1rpx solid whitesmoke;
+}
+
+.province .head_letters {
+  width: 96%;
+  padding-top: 20rpx;
+  margin: auto;
+  background-color: white;
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+.letters {
+  width: 140rpx;
+  height: 70rpx;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15rpx 0 0 25rpx;
+}
+
+.choose_yes {
+  background-color: #4fb783;
+  color: white;
+  border: 1rpx solid #4fb783;
+}
+
+.choose_no {
+  border: 1rpx solid gray;
+  color: gray;
+}
+
+.provinces {
+  padding: 0 15rpx 0 15rpx;
+  height: 60rpx;
+  margin: 15rpx 0 0 25rpx;
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28rpx;
+}

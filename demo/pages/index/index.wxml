@@ -1,0 +1,2 @@
+<!--index.wxml-->
+<button bindtap='chooseCity'>点击选择城市</button>

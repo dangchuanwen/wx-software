@@ -1,0 +1,30 @@
+<view class='province'>
+  <view class='choose'>
+      <text>选择省份首字母</text>
+  </view>
+  <view class='head_letters'>
+      <block wx:for="{{head_letters}}"wx:key="" wx:for-index="key">
+        <view class='letters {{item.style}}' bindtap='chooseLetter' id="{{key}}">{{item.text}}</view>
+      </block>
+  </view>
+</view>
+<view class='province'>
+  <view class='choose'>
+      <text>选择省份</text>
+  </view>
+  <view class='head_letters'>
+      <block wx:for="{{provinces}}"wx:key="" wx:for-index="key">
+        <view class='provinces {{item.style}}' bindtap='chooseProvince' id="{{key}}">{{item.text}}</view>
+      </block>
+  </view>
+</view>
+<view class='province'>
+     <view class='choose'>
+      <text>选择城市</text>
+  </view>
+  <view class='head_letters'>
+      <block wx:for="{{citys}}"wx:key="" wx:for-index="key">
+        <view class='provinces {{item.style}}'bindtap='chooseCity' id="{{key}}">{{item.text}}</view>
+      </block>
+  </view>
+</view>
